@@ -2,74 +2,74 @@
 
 > An executable research environment for studying conserved worlds, recurrent bodies, heredity, multiscale organization, natural history, and the conditions under which patterns persist, transform, or cease.
 
-Anima Mundi began as a line of interdisciplinary work spanning dynamical systems, artificial life, recurrent architectures, philosophy of mind, and the earlier Xenith/Demian projects. It is now a versioned simulation and evidence program with explicit boundaries between **mechanics**, **observation**, **interpretation**, and **infrastructure**.
+Anima Mundi is an interdisciplinary research program spanning dynamical systems, artificial life, recurrent architectures, and questions about persistence and organization. The project is designed around explicit boundaries between **mechanics**, **observation**, **interpretation**, and **infrastructure**.
 
-## Current status
+## Public Repository Scope
 
-**Active phase:** `S3 — 128-vCPU physical-host qualification`
+This GitHub repository is currently a **public project front page**, not a complete mirror of the canonical local research workspace.
 
-The local engine and cohort substrate are sealed. The next run is a one-shot 128-vCPU campaign that will:
+The local project contains the executable engine, evidence contracts, run artifacts, operational status documents, and verification surfaces used during active research. Those materials are not all present in this public snapshot, so this README does not treat local-only files, phase labels, or run counts as independently verifiable public evidence.
 
-- measure the real CPU/NUMA/memory/storage topology;
-- choose the throughput-optimal worker count rather than assuming 128 workers;
-- run bounded 128-tick primary census cells;
-- run a separate 32→64→128 exploratory succession lane;
-- record six fixed deep-sentinel multiscale atlases;
-- recycle completed worker processes and their RSS immediately;
-- verify, quarantine, and atomically promote artifacts through a separate verification queue.
+The public repository should therefore be read as orientation to the program and its claim boundaries. When a result is promoted publicly, it should be accompanied by a public artifact, manifest, report, or other inspectable evidence surface.
 
-No production worker count is authorized until the physical host is measured.
+## Research Direction
 
-## What is implemented
+The active program studies mechanisms including:
 
-- Six-channel recurrent capsule substrate
-- Conserved energy and matter accounting
-- Sparse delayed couplings and packets
-- Development, repair, fission, fusion, heredity, mutation, and material turnover
-- Endogenous weather and local source coupling
-- Abiotic genesis and locally funded colonization
-- Multiple world basins and neutral cross-world dispersal
-- Read-only natural-history and longitudinal observers
-- Exact rollback with private runtime state images
-- Deterministic task and plan identities
-- Process-isolated cohort execution
-- Crash recovery, checkpoint protection, quarantine, and atomic promotion
-- Dynamic simulation/verification queues with live RSS/PSS admission
-- Conditional exploratory succession without hidden state inheritance
+- recurrent capsule state and continuity;
+- conserved energy and matter accounting;
+- sparse delayed couplings and packet-like transfer;
+- development, repair, fission, fusion, heredity, mutation, and material turnover as operational mechanics;
+- endogenous weather and local source coupling;
+- abiotic genesis and locally funded colonization as simulation mechanisms;
+- multiple world basins and neutral cross-world dispersal;
+- read-only natural-history and longitudinal observation;
+- exact rollback and deterministic task/run identity;
+- process-isolated cohort execution, verification, quarantine, and artifact promotion.
 
-## What is *not* claimed
+These names describe implemented or investigated **simulation mechanisms**. They do not automatically confer biological, psychological, or ontological meaning.
+
+## What Is Not Claimed
 
 Operational records are not automatically evidence of:
 
 - life, consciousness, agency, or identity;
 - species, cooperation, predation, parasitism, or symbiosis;
-- ecological or evolutionary meaning beyond the frozen operational definitions;
-- ontological death.
+- ecological or evolutionary meaning beyond frozen operational definitions;
+- ontological death;
+- a biological analogue merely because a mechanism uses biological vocabulary.
 
 Zero launches, zero arrivals, quiescence, collapse, or absence of a phenomenon are valid bounded results.
 
-## Start here
+## Evidence Policy
 
-| You want to understand… | Read |
-|---|---|
-| Where the project is now | [`STATUS.md`](STATUS.md) |
-| What happens next | [`ROADMAP.md`](ROADMAP.md) |
-| The architecture | [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) |
-| Scientific boundaries | [`docs/RESEARCH_BOUNDARIES.md`](docs/RESEARCH_BOUNDARIES.md) |
-| How to contribute without destabilizing it | [`CONTRIBUTING.md`](CONTRIBUTING.md) |
+Anima Mundi separates four layers:
 
-## Verification snapshot
+1. **Mechanics** — what the simulation actually computes.
+2. **Observation** — what read-only instruments record from those mechanics.
+3. **Interpretation** — the bounded language used to describe observed structure.
+4. **Infrastructure** — execution, rollback, verification, sealing, and artifact handling.
 
-The sealed dynamic package completed:
+A visualization is not automatically evidence. A biological label is not automatically a biological claim. A successful run is not automatically a successful hypothesis.
 
-- **161 passed, 1 optional Blender skip, 0 failed** across the complete fractal + one-shot surface;
-- **105/105** curated evidence entries verified;
-- **361 passed, 1 skipped, 2 historically classified non-project failures** repository-wide;
-- exact patch reconstruction and a **327-file** SHA-256 seal manifest.
+New mechanism claims should be backed by matched controls, reproducible state boundaries, exact rollback where applicable, conservation/accounting checks, and inspectable artifacts.
 
-The two historical repository-wide failures are retained rather than rewritten: an unpinned numerical digest mismatch under Python 3.13/NumPy 2.3, and an absent historical sealed artifact that was not regenerated.
+## Public Snapshot Status
 
-## Philosophy of the project
+The canonical local workspace has reported later qualification and verification stages, including bounded 32/64/128-tick longitudinal work and physical-host qualification planning. Those states are intentionally **not asserted here as current public facts** until the corresponding status/evidence surfaces are exported into this repository.
+
+This avoids a common failure mode where a README points to local-only files or reports internal verification counts that a public reader cannot inspect.
+
+## Where To Start
+
+For the current public snapshot:
+
+- this `README.md` is the project orientation and claim-boundary document;
+- `LICENSE` defines reuse terms for the repository contents that are actually published here.
+
+Additional architecture, status, roadmap, research-boundary, and evidence documents should be linked here only after they exist in the public repository.
+
+## Philosophy of the Project
 
 Anima Mundi is less interested in declaring that something is “alive” than in asking:
 
@@ -77,10 +77,19 @@ Anima Mundi is less interested in declaring that something is “alive” than i
 
 The project treats individuality, continuity, death, scale, and relationship as empirical structures to be measured before they are named.
 
-## Repository policy
+The circumpunct-like or organismic metaphors used elsewhere in the research program are architectural or dynamical metaphors unless a stronger claim is separately justified.
 
-This repository is currently published as a readable project hub and controlled research snapshot. Internal evidence contracts remain versioned and immutable. New mechanisms require explicit authorization, matched controls, exact rollback and conservation gates, and a clear separation between observation and causation.
+## Repository Policy
+
+This repository is published as a readable public project hub. The canonical research workspace remains the source of truth for active mechanisms, evidence contracts, qualification state, and raw run artifacts until selected materials are deliberately exported here.
+
+Public documentation should not:
+
+- link to files that are absent from the repository;
+- present internal verification counts as independently inspectable public evidence;
+- collapse simulation vocabulary into biological claims;
+- silently promote a local phase/status label after the public snapshot has fallen behind.
 
 ## License
 
-No open-source license has been selected yet. Until one is added, copyright remains with the repository owner and reuse is not automatically granted.
+This repository currently includes an **MIT License**. See [`LICENSE`](LICENSE) for the applicable terms.
